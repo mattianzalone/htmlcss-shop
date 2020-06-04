@@ -5,13 +5,17 @@
 }
 
 .primo, .secondo{
-    width: 1540px;
+    width: 1520px;
     height: 400px;
 }
 
+.secondo{
+    margin-top: 10px;
+}
+
 .small-contanier{
-    width: 505px;
-    height: 350px;
+    width: 500px;
+    height: 360px;
     background-color: lightgrey;
     display: inline-block;
     position: relative;
@@ -31,4 +35,25 @@
 
 .rosso{
     background-color: red;
+}
+
+.immagini{
+    position: absolute;
+    width: 170px;
+    height: 150px;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+.heart{
+    position: absolute;
+    color: red;
+    font-size: 35px;
+    bottom: 10px;
+    left:200px;
+    display: none;
+}
+
+.immagini:hover + span{
+    display: block;
 }
